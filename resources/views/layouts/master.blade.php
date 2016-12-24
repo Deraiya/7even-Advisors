@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <title> @yield('title')</title>
 
 </head>
 <body>
