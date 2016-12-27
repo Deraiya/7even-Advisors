@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/user', function (){
+   return view('user_dashboard');
+});
+Route::get('/admin', function (){
+    return view('admin_dashboard');
+});

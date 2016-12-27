@@ -2,14 +2,15 @@
 
 @section('title')
     Welcome!
-@endsection
+@endsection('title')
 @section('content')
 
 
-                <div class="row">
+                <div class="row" >
                     <div class="col-md-3"></div>
 
-                    <div class="col-md-6    ">
+
+                    <div class="col-md-6">
                         <div class="well well-lg">
                             <h1>My Account</h1>
                             <form action="#" method="post">
@@ -31,4 +32,4 @@
                 <div class="col-md-3"></div>
 
 
-@endsection
+@endsection('content')
