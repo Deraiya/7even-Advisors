@@ -17,6 +17,19 @@ Route::get('/', function () {
 Route::get('/user', function (){
    return view('user_dashboard');
 });
-Route::get('/admin', function (){
-    return view('admin_dashboard');
+Route::get('/admin2', function (){
+    return view('admin_dashboard2');
+});
+Route::get('/admin1', function (){
+    return view('admin_dashboard1');
+});
+Route::get('/admin0', function (){
+    return view('admin_dashboard0');
+});
+
+Route::get('/rel1', function (){
+    return view('admin_relation1');
+});
+Route::get('/rel2', function (){
+    return view('admin_relation2');
 });
