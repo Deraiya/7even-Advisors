@@ -6,7 +6,7 @@
 
 
 
-@section('nav_bar')
+ @section('nav_bar')
     <!-- Main Header -->
     <header class="main-header">
 
@@ -104,10 +104,9 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                News Feed
-                <small>Clients Update</small>
+                Rehman
+                <small>Detail Description</small>
             </h1>
-
         </section>
 
         <!-- Main content -->
@@ -118,155 +117,315 @@
 
 
                     <div class="box">
-
+                        <div class="box-header">
+                            <h3 class="box-title">Full Features</h3>
+                        </div>
+                        <!-- /.box-header -->
                         <div class="box-body">
-                            <table id="example2" class="table table-bordered table-striped">
+                            <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
-                                    <th>Acc. Doc No.</th>
-                                    <th>Client Name</th>
-                                    <th>Team Assigned</th>
-                                    <th>Date</th>
-                                    <th>Client History</th>
-
+                                    <th>Serial No.</th>
+                                    <th>Vendor No.</th>
+                                    <th>Bill No.</th>
+                                    <th>Bill Date</th>
+                                    <th>Reciept</th>
+                                    <th>Amount</th>
+                                    <th>Acc. Doc No</th>
+                                    <th>Remark</th>
+                                    <th>Action</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
+<!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
                                 <tr>
                                     <td>1</td>
-                                    <td>Rehman</td>
-                                    <td>Team 1
+                                    <td>Trident</td>
+                                    <td>Internet
+                                        Explorer 4.0
                                     </td>
-                                    <td>09/10/16</td>
-
+                                    <td>Win 95+</td>
+                                    <td> 4</td>
+                                    <td>X</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
-                                    <td>Pratik</td>
-                                    <td>Team 2
+                                    <td>Trident</td>
+                                    <td>Internet
+                                        Explorer 5.0
                                     </td>
-                                    <td>10/10/16</td>
-
+                                    <td>Win 95+</td>
+                                    <td>5</td>
+                                    <td>C</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
+
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>3</td>
                                     <td>Trident</td>
-                                    <td>Team 3
+                                    <td>Internet
+                                        Explorer 5.5
                                     </td>
-                                    <td>09/11/16</td>
-
+                                    <td>Win 95+</td>
+                                    <td>5.5</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>4</td>
                                     <td>Trident</td>
-                                    <td>Team 3
+                                    <td>Internet
+                                        Explorer 6
                                     </td>
-                                    <td>09/11/16</td>
-
+                                    <td>Win 98+</td>
+                                    <td>6</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
-
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>5</td>
                                     <td>Trident</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
-
+                                    <td>Internet Explorer 7</td>
+                                    <td>Win XP SP2+</td>
+                                    <td>7</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>6</td>
                                     <td>Trident</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
-
+                                    <td>AOL browser (AOL desktop)</td>
+                                    <td>Win XP</td>
+                                    <td>6</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>7</td>
                                     <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
-
+                                    <td>Firefox 1.0</td>
+                                    <td>Win 98+ / OSX.2+</td>
+                                    <td>1.7</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>8</td>
                                     <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
-
+                                    <td>Firefox 1.5</td>
+                                    <td>Win 98+ / OSX.2+</td>
+                                    <td>1.8</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>9</td>
                                     <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
-
+                                    <td>Firefox 2.0</td>
+                                    <td>Win 98+ / OSX.2+</td>
+                                    <td>1.8</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 <tr>
                                     <td>10</td>
                                     <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
-
+                                    <td>Firefox 3.0</td>
+                                    <td>Win 2k+ / OSX.3+</td>
+                                    <td>1.9</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
-                                <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
+<!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
                                 <tr>
                                     <td>10</td>
                                     <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
-
+                                    <td>Firefox 3.0</td>
+                                    <td>Win 2k+ / OSX.3+</td>
+                                    <td>1.9</td>
+                                    <td>A</td>
+                                    <td>ABC</td>
+                                    <td>Remark</td>
                                     <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                            <button type="button" class="btn btn-info">Action</button>
+                                            <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                            </button>
+                                            <ul class="dropdown-menu" role="menu">
 
+                                                <li><a href="#" class="fa fa-edit">&nbsp Edit</a></li>
+                                                <li><a href="#" class="fa fa-download">&nbsp Attachment</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#" class="fa  fa-trash">&nbsp Delete</a></li>
+                                            </ul>
+                                        </div></td>
                                 </tr>
                                 </tbody>
-
                                 <tfoot>
                                 <tr>
-                                    <th>Acc. Doc No.</th>
-                                    <th>Client Name</th>
-                                    <th>Team Assigned</th>
-                                    <th>Date</th>
-                                    <th>Client History</th>
+                                    <th>Serial No.</th>
+                                    <th>Vendor No.</th>
+                                    <th>Bill No.</th>
+                                    <th>Bill Date</th>
+                                    <th>Reciept</th>
+                                    <th>Amount</th>
+                                    <th>Acc. Doc No</th>
+                                    <th>Remark</th>
+                                    <th>Action</th>
+
                                 </tr>
                                 </tfoot>
-
                             </table>
                         </div>
                         <!-- /.box-body -->
@@ -279,4 +438,5 @@
         </section>
         <!-- /.content -->
     </div>
+
 @endsection('content')

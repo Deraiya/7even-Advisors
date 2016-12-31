@@ -43,7 +43,7 @@
 
                                 <p>
                                     Mr. Deepak Raorane
-                                    <small>Member </small>
+                                    <small>Member</small>
                                 </p>
                             </li>
                             <!-- Menu Footer-->
@@ -83,7 +83,8 @@
                 <!-- Optionally, you can add icons to the links -->
                 <li><a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </i></a></li>
                 <li class="treeview">
-                    <a href="#"><i class='fa  fa-user-plus'></i> <span>Add Users</span> <i class="fa fa-angle-left pull-right"></i></a>
+                    <a href="#"><i class='fa  fa-user-plus'></i> <span>Add Users</span> <i
+                                class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">
                         <li><a href="#">Add Client</a></li>
                         <li><a href="#">Add Team</a></li>
@@ -104,179 +105,488 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                News Feed
-                <small>Clients Update</small>
+                Team
+                <div class="fa fa-chain"></div>
+                Client
+                <small>One To One Relation</small>
             </h1>
 
         </section>
 
-        <!-- Main content -->
-        <section class="content">
-            <div class="row">
-                <div class="col-xs-12">
+
+            <!-- Main content -->
+            <section class="content">
+                <div class="row">
+                    <div class="col-xs-12">
+
+
+                        <div class="box">
+
+                            <div class="box-body">
+                                <table id="teamt" class="table table-bordered table-striped table-responsive">
+                                    <thead>
+                                    <tr>
+                                        <th>Team Member ID</th>
+                                        <th>Team Member Name</th>
+                                        <th>Client's</th>
+                                        <th>Add Client</th>
+                                        <th>Remove Client</th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Rehman</td>
+                                        <td>
+                                                @for ($i = 0; $i < 10; $i++)
+                                                    <span class="label label-info">Client1</span>
+                                                @endfor
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Pratik</td>
+                                        <td>
+                                            @for ($i = 0; $i < 15; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Trident</td>
+                                        <td>
+                                            @for ($i = 0; $i < 4; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Trident</td>
+                                        <td>
+                                            @for ($i = 0; $i < 2; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
 
 
-                    <div class="box">
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Trident</td>
+                                        <td>
+                                            @for ($i = 0; $i < 5; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
 
-                        <div class="box-body">
-                            <table id="example2" class="table table-bordered table-striped">
-                                <thead>
-                                <tr>
-                                    <th>Acc. Doc No.</th>
-                                    <th>Client Name</th>
-                                    <th>Team Assigned</th>
-                                    <th>Date</th>
-                                    <th>Client History</th>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
-                                <tr>
-                                    <td>1</td>
-                                    <td>Rehman</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Trident</td>
+                                        <td>
+                                            @for ($i = 0; $i < 8; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
 
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Pratik</td>
-                                    <td>Team 2
-                                    </td>
-                                    <td>10/10/16</td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Trident</td>
-                                    <td>Team 3
-                                    </td>
-                                    <td>09/11/16</td>
-
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Trident</td>
-                                    <td>Team 3
-                                    </td>
-                                    <td>09/11/16</td>
-
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
 
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Trident</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Gecko</td>
+                                        <td>
+                                            @for ($i = 0; $i < 1; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>Trident</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
 
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Gecko</td>
+                                        <td>
+                                            @for ($i = 0; $i < 12; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
 
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Gecko</td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                        <td>
+                                            @for ($i = 0; $i < 11; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
 
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                </tr>
-                                <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
-                                <tr>
-                                    <td>10</td>
-                                    <td>Gecko</td>
-                                    <td>Team 1
-                                    </td>
-                                    <td>09/10/16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Gecko</td>
+                                        <td>
+                                            @for ($i = 0; $i < 6; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
 
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                </tr>
-                                </tbody>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
 
-                                <tfoot>
-                                <tr>
-                                    <th>Acc. Doc No.</th>
-                                    <th>Client Name</th>
-                                    <th>Team Assigned</th>
-                                    <th>Date</th>
-                                    <th>Client History</th>
-                                </tr>
-                                </tfoot>
+                                    </tr>
+                                    <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Gecko</td>
+                                        <td>
+                                            @for ($i = 0; $i < 8; $i++)
+                                                <span class="label label-info">Client1</span>
+                                            @endfor
+                                        </td>
 
-                            </table>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control select2" style="width: 100%;">
+                                                    <option selected="selected">Alabama</option>
+                                                    <option>Alaska</option>
+                                                    <option>California</option>
+                                                    <option>Delaware</option>
+                                                    <option>Tennessee</option>
+                                                    <option>Texas</option>
+                                                    <option>Washington</option>
+                                                </select>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                    </tbody>
+
+                                    <tfoot>
+                                    <tr>
+                                        <th>Team Member ID</th>
+                                        <th>Team Member Name</th>
+                                        <th>Client's</th>
+                                        <th>Add Client</th>
+                                        <th>Remove Client</th>
+                                    </tr>
+                                    </tfoot>
+
+                                </table>
+                            </div>
+                            <!-- /.box-body -->
                         </div>
-                        <!-- /.box-body -->
+                        <!-- /.box -->
                     </div>
-                    <!-- /.box -->
+                    <!-- /.col -->
                 </div>
-                <!-- /.col -->
-            </div>
-            <!-- /.row -->
-        </section>
-        <!-- /.content -->
+
+                <!-- /.row -->
+            </section>
+            <!-- /.content -->
+
     </div>
 @endsection('content')
+
