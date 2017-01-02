@@ -218,18 +218,7 @@
                 @endsection('nav_bar')
                 @section('side_bar')
                     <aside class="main-sidebar">
-
-                        <!-- sidebar: style can be found in sidebar.less -->
                         <section class="sidebar">
-
-                            <!-- Sidebar user panel (optional) -->
-
-
-                            <!-- search form (Optional) -->
-
-                            <!-- /.search form -->
-
-                            <!-- Sidebar Menu -->
                             <ul class="sidebar-menu">
                                 <li class="header">HEADER</li>
                                 <!-- Optionally, you can add icons to the links -->
@@ -244,236 +233,184 @@
                                 <li class="active"><a href="{{ URL::to('rel1')}}"><i class='fa fa-link'></i> <span>Relations</span></a></li>
                                 <li><a href="#"><i class='fa fa-phone-square'></i> <span>Contact Developer</span></a></li>
 
-                            </ul><!-- /.sidebar-menu -->
+                            </ul>
                         </section>
-                        <!-- /.sidebar -->
+
                     </aside>
 
                 @endsection('side_bar')
 
                 @section('content')
                     <div class="content-wrapper">
-                        <!-- Content Header (Page header) -->
                         <section class="content-header">
-                            <h1><b>
-                                    News Feed
-                                </b>
-                            </h1>
+                        <h1><b>
+                                User Name
+                            </b>
+                        </h1>
 
-                        </section>
-
-                        <!-- Main content -->
+                    </section>
                         <section class="content">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <div class="col-lg-3 col-xs-6">
-                                        <!-- small box -->
-                                        <div class="small-box bg-yellow">
-                                            <div class="inner">
-                                                <h3>44</h3>
-
-                                                <p>Number Of Users</p>
-                                            </div>
-                                            <div class="icon">
-                                                <i class="ion ion-person-add"></i>
-                                            </div>
-                                            <a href="{{ URL::to('clientt')}}" class="small-box-footer">
-                                                More info <i class="fa fa-arrow-circle-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-3 col-xs-6">
-                                        <!-- small box -->
-                                        <div class="small-box bg-green">
-                                            <div class="inner">
-                                                <h3>44</h3>
-
-                                                <p>Number Of Team</p>
-                                            </div>
-                                            <div class="icon">
-                                                <i class="ion ion-person-add"></i>
-                                            </div>
-                                            <a href="{{ URL::to('teamt')}}" class="small-box-footer">
-                                                More info <i class="fa fa-arrow-circle-right"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <div class="box box-info">
-                                        <div class="box-header with-border">
-                                            <h3 class="box-title">Latest Update</h3>
-
-                                            <div class="box-tools pull-right">
-                                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                                                </button>
-
-                                            </div>
+                                    <div class="box">
+                                        <div class="box-header">
+                                            <h3 class="box-title"><b>History</b></h3>
                                         </div>
                                         <!-- /.box-header -->
                                         <div class="box-body">
-                                            <div class="table-responsive">
-                                                <table class="table no-margin">
-                                                    <thead>
-                                                    <tr>
-                                                        <th>Acc. Doc Number</th>
-                                                        <th>Client</th>
-                                                        <th>Team Assigned</th>
-                                                        <th>Date</th>
-                                                        <th>Client History</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
-                                                    <tr>
-                                                        <td>1</td>
-                                                        <td>Rehman</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
+                                            <table id="example1" class="table table-bordered table-striped table-responsive">
+                                                <thead>
+                                                <tr>
+                                                    <th>Serial No.</th>
+                                                    <th>Vendor No.</th>
+                                                    <th>Bill No.</th>
+                                                    <th>Bill Date</th>
+                                                    <th>Reciept</th>
+                                                    <th>Amount</th>
+                                                    <th>Acc. Doc No</th>
+                                                    <th>Remark</th>
+                                                    <th>Attachment</th>
+                                                    <th>Submit</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>abc</td>
+                                                    <td>B125</td>
+                                                    <td>10/10/10</td>
+                                                    <td>hhajh5126w</td>
+                                                    <td>134</td>
+                                                    <td>jdnjnwj</td>
+                                                    <td>jvnorjeo</td>
+                                                    <td>
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-info btn-flat">Action</button>
+                                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                                <span class="caret"></span>
+                                                                <span class="sr-only">Toggle Dropdown</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu" role="menu">
+                                                                <li><a href="#">Save Attachments</a></li>
+                                                                <li><a href="#">Edit Details</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-danger">Submit</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>abc</td>
+                                                    <td>B125</td>
+                                                    <td>10/10/10</td>
+                                                    <td>hhajh5126w</td>
+                                                    <td>134</td>
+                                                    <td>wnodvnow</td>
+                                                    <td>svnwdhv</td>
+                                                    <td>
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-info btn-flat">Action</button>
+                                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                                <span class="caret"></span>
+                                                                <span class="sr-only">Toggle Dropdown</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu" role="menu">
+                                                                <li><a href="#">Save Attachments</a></li>
+                                                                <li><a href="#">Edit Details</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-danger">Submit</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>abc</td>
+                                                    <td>B125</td>
+                                                    <td>10/10/10</td>
+                                                    <td>hhajh5126w</td>
+                                                    <td>134</td>
+                                                    <td>jvsndisfidu</td>
+                                                    <td> hdobln</td>
+                                                    <td>
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-info btn-flat">Action</button>
+                                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                                <span class="caret"></span>
+                                                                <span class="sr-only">Toggle Dropdown</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu" role="menu">
+                                                                <li><a href="#">Save Attachments</a></li>
+                                                                <li><a href="#">Edit Details</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-danger">Submit</button>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>1</td>
+                                                    <td>abc</td>
+                                                    <td>B125</td>
+                                                    <td>10/10/10</td>
+                                                    <td>hhajh5126w</td>
+                                                    <td>134</td>
+                                                    <td> njhbjhb</td>
+                                                    <td>fnbljnbje</td>
+                                                    <td>
+                                                        <div class="btn-group">
+                                                            <button type="button" class="btn btn-info btn-flat">Action</button>
+                                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                                                <span class="caret"></span>
+                                                                <span class="sr-only">Toggle Dropdown</span>
+                                                            </button>
+                                                            <ul class="dropdown-menu" role="menu">
+                                                                <li><a href="#">Save Attachments</a></li>
+                                                                <li><a href="#">Edit Details</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </td>
+                                                    <td>
+                                                        <button type="button" class="btn btn-danger">Submit</button>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                                <tfoot>
+                                                <tr>
+                                                    <th>Serial No.</th>
+                                                    <th>Vendor No.</th>
+                                                    <th>Bill No.</th>
+                                                    <th>Bill Date</th>
+                                                    <th>Reciept</th>
+                                                    <th>Amount</th>
+                                                    <th>Acc. Doc No</th>
+                                                    <th>Remark</th>
+                                                    <th>Attachment</th>
+                                                    <th>Submit</th>
 
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>2</td>
-                                                        <td>Pratik</td>
-                                                        <td>Team 2
-                                                        </td>
-                                                        <td>10/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>3</td>
-                                                        <td>Trident</td>
-                                                        <td>Team 3
-                                                        </td>
-                                                        <td>09/11/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>4</td>
-                                                        <td>Trident</td>
-                                                        <td>Team 3
-                                                        </td>
-                                                        <td>09/11/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>5</td>
-                                                        <td>Trident</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>6</td>
-                                                        <td>Trident</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>7</td>
-                                                        <td>Gecko</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>8</td>
-                                                        <td>Gecko</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>9</td>
-                                                        <td>Gecko</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <tr>
-                                                        <td>10</td>
-                                                        <td>Gecko</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
-                                                    <tr>
-                                                        <td>10</td>
-                                                        <td>Gecko</td>
-                                                        <td>Team 1
-                                                        </td>
-                                                        <td>09/10/16</td>
-
-                                                        <td><div class="btn-group">
-                                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                            <!-- /.table-responsive -->
+                                                </tr>
+                                                </tfoot>
+                                            </table>
                                         </div>
                                         <!-- /.box-body -->
-                                        <div class="box-footer clearfix">
-
-                                        </div>
-                                        <!-- /.box-footer -->
                                     </div>
-                                </div>
-                            </div>
 
-                            <!-- /.row -->
+                                </div>
+
+                            </div>
                         </section>
-                        <!-- /.content -->
+
                     </div>
                 @endsection('content')
 
             </div>
 
-            <!-- /.row -->
+
         </section>
-        <!-- /.content -->
+
     </div>
 @endsection('content')

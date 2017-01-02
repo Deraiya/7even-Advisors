@@ -85,8 +85,8 @@
                 <li class="treeview">
                     <a href="#"><i class='fa  fa-user-plus'></i> <span>Add Users</span> <i class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">
-                        <li><a href="#">Add Client</a></li>
-                        <li><a href="#">Add Team</a></li>
+                        <li><a href="{{ URL::to('addc')}}">Add Client</a></li>
+                        <li><a href="{{ URL::to('addt')}}">Add Team</a></li>
                     </ul>
                 </li>
                 <li class="active"><a href="{{ URL::to('rel1')}}"><i class='fa fa-link'></i> <span>Relations</span></a></li>
@@ -184,7 +184,7 @@
                                         <td>09/10/16</td>
 
                                         <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
+                                                <a href="{{ URL::to('his')}}"><button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td></a>
 
                                     </tr>
                                     <tr>

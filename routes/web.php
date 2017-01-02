@@ -15,9 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 /* --------------------------Client------------------------------------------------------------------------------------*/
-Route::get('/user', function (){
-   return view('user_dashboard');
-});
 Route::get('/client', function (){
     return view('client_dashboard');
 });
@@ -31,7 +28,7 @@ Route::get('/admin1', function (){
     return view('admin_dashboard1');
 });
 Route::get('/clientt', function (){
-    return view('admin_teamt');
+    return view('admin_client');
 });
 Route::get('/teamt', function (){
     return view('admin_teamt');
