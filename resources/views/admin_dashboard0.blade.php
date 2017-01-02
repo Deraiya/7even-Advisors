@@ -81,7 +81,7 @@
             <ul class="sidebar-menu">
                 <li class="header">HEADER</li>
                 <!-- Optionally, you can add icons to the links -->
-                <li><a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </i></a></li>
+                <li><a href="{{ URL::to('admin0')}}"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </i></a></li>
                 <li class="treeview">
                     <a href="#"><i class='fa  fa-user-plus'></i> <span>Add Users</span> <i class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">
@@ -89,7 +89,7 @@
                         <li><a href="#">Add Team</a></li>
                     </ul>
                 </li>
-                <li class="active"><a href="#"><i class='fa fa-link'></i> <span>Relations</span></a></li>
+                <li class="active"><a href="{{ URL::to('rel1')}}"><i class='fa fa-link'></i> <span>Relations</span></a></li>
                 <li><a href="#"><i class='fa fa-phone-square'></i> <span>Contact Developer</span></a></li>
 
             </ul><!-- /.sidebar-menu -->
@@ -125,7 +125,7 @@
                             <div class="icon">
                                 <i class="ion ion-person-add"></i>
                             </div>
-                            <a href="#" class="small-box-footer">
+                            <a href="{{ URL::to('clientt')}}" class="small-box-footer">
                                 More info <i class="fa fa-arrow-circle-right"></i>
                             </a>
                         </div>
@@ -141,7 +141,7 @@
                             <div class="icon">
                                 <i class="ion ion-person-add"></i>
                             </div>
-                            <a href="#" class="small-box-footer">
+                            <a href="{{ URL::to('teamt')}}" class="small-box-footer">
                                 More info <i class="fa fa-arrow-circle-right"></i>
                             </a>
                         </div>

@@ -2,10 +2,6 @@
 
 <!DOCTYPE html>
 
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html>
 <head>
     <title> @yield('title')</title>
@@ -35,22 +31,22 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini">
+<body class="hold-transition skin-blue layout-top-nav">
 <div class="wrapper">
 
 
 @yield('nav_bar')
 
-@yield('side_bar')
+
 
 @yield('content')
 
 
-    <!-- Main Footer -->
+<!-- Main Footer -->
     <footer class="main-footer">
         <!-- To the right -->
         <div class="pull-right hidden-xs">
-            Crafted By Deraiya Inc.
+            Crafted At Deraiya Inc.
         </div>
         <!-- Default to the left -->
         <strong>Copyright &copy; 2017 <a href="#">7even Advisors</a>.</strong>

@@ -142,8 +142,7 @@
                                     <td>abusderaiya@gmail.com </td>
                                     <td>mumbai</td>
                                     <td>1246292</td>
-                                    <td><div class="btn-group">
-                                            <button type="button" class="btn btn-info fa fa-chain">&nbsp Clients</button></td>
+                                    <td>13462892</td>
                                 </tr>
                                 <tr>
                                     <td>2</td>
