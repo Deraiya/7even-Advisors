@@ -1,7 +1,7 @@
 @extends('layouts.client_master')
 
 @section('title')
-    --Admin Panel--
+    Welcome!
 @endsection('title')
 
 
@@ -29,7 +29,7 @@
                                 <!-- The user image in the navbar-->
                                 <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
                                 <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                                <span class="hidden-xs">Mr. Deepak</span>
+                                <span class="hidden-xs">Mr. Rehman Deraiya</span>
                             </a>
                             <ul class="dropdown-menu">
                                 <!-- The user image in the menu -->
@@ -38,7 +38,6 @@
 
                                     <p>
                                         Rehman Deraiya
-                                        <small>Member since Nov. 2012</small>
                                     </p>
                                 </li>
 

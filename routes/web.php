@@ -21,12 +21,10 @@ Route::get('/client', function (){
 /* --------------------------Client------------------------------------------------------------------------------------*/
 
 /* --------------------------Admin------------------------------------------------------------------------------------*/
-Route::get('/admin0', function (){
-    return view('admin_dashboard0');
+Route::get('/admin', function (){
+    return view('admin_dashboard');
 });
-Route::get('/admin1', function (){
-    return view('admin_dashboard1');
-});
+
 Route::get('/clientt', function (){
     return view('admin_client');
 });

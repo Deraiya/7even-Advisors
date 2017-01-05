@@ -22,7 +22,7 @@
                                     <label for="password">Password</label>
                                     <input class="form-control" type="password" name="password" id="password"></input>
                                 </div>
-                                <a href="{{ URL::to('admin0')}}"><button type="button" class="btn btn-primary btn-large">Submit</button></a>
+                                <a href="{{ URL::to('admin')}}"><button type="button" class="btn btn-primary btn-large">Submit</button></a>
                             </form>
                         </div>
                     </div>

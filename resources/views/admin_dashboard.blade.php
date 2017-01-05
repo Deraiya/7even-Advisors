@@ -1,7 +1,7 @@
 @extends('layouts.company_master')
 
 @section('title')
-    --Admin Panel--
+    Admin Panel
 @endsection('title')
 
 
@@ -81,7 +81,7 @@
             <ul class="sidebar-menu">
                 <li class="header">HEADER</li>
                 <!-- Optionally, you can add icons to the links -->
-                <li><a href="{{ URL::to('admin0')}}"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </i></a></li>
+                <li><a href="{{ URL::to('admin')}}"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </i></a></li>
                 <li class="treeview">
                     <a href="#"><i class='fa  fa-user-plus'></i> <span>Add Users</span> <i class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">

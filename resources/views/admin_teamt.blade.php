@@ -1,7 +1,7 @@
 @extends('layouts.company_master')
 
 @section('title')
-    --Admin Panel--
+    Team Table
 @endsection('title')
 
 
@@ -120,7 +120,7 @@
                     <div class="box">
 
                         <div class="box-body">
-                            <table id="clientt" class="table table-bordered table-striped">
+                            <table id="example2" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
                                     <th>ID</th>

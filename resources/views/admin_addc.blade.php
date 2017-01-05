@@ -1,7 +1,7 @@
 @extends('layouts.company_master')
 
 @section('title')
-    --Admin Panel--
+    Add Client
 @endsection('title')
 
 
