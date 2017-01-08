@@ -64,40 +64,7 @@
         </nav>
     </header>
 @endsection('nav_bar')
-@section('side_bar')
-    <aside class="main-sidebar">
 
-        <!-- sidebar: style can be found in sidebar.less -->
-        <section class="sidebar">
-
-            <!-- Sidebar user panel (optional) -->
-
-
-            <!-- search form (Optional) -->
-
-            <!-- /.search form -->
-
-            <!-- Sidebar Menu -->
-            <ul class="sidebar-menu">
-                <li class="header">HEADER</li>
-                <!-- Optionally, you can add icons to the links -->
-                <li><a href="{{ URL::to('admin')}}"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </i></a></li>
-                <li class="treeview">
-                    <a href="#"><i class='fa  fa-user-plus'></i> <span>Add Users</span> <i class="fa fa-angle-left pull-right"></i></a>
-                    <ul class="treeview-menu">
-                        <li><a href="{{ URL::to('addc')}}">Add Client</a></li>
-                        <li><a href="{{ URL::to('addt')}}">Add Team</a></li>
-                    </ul>
-                </li>
-                <li class="active"><a href="{{ URL::to('rel1')}}"><i class='fa fa-link'></i> <span>Relations</span></a></li>
-                <li><a href="#"><i class='fa fa-phone-square'></i> <span>Contact Developer</span></a></li>
-
-            </ul><!-- /.sidebar-menu -->
-        </section>
-        <!-- /.sidebar -->
-    </aside>
-
-@endsection('side_bar')
 
 @section('content')
     <div class="content-wrapper">
@@ -155,21 +122,18 @@
                         <div class="box-header with-border">
                             <h3 class="box-title">Latest Update</h3>
 
-                            <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
-                                </button>
 
-                            </div>
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body">
                             <div class="table-responsive">
-                                <table class="table no-margin">
+                                <table id="example1" class="table table-bordered table-striped ">
                                     <thead>
                                     <tr>
-                                        <th>Acc. Doc Number</th>
+                                        <th>ID/Serial</th>
                                         <th>Client</th>
                                         <th>Team Assigned</th>
+                                        <th>Acc. Doc Number</th>
                                         <th>Date</th>
                                         <th>Client History</th>
                                     </tr>
@@ -181,6 +145,7 @@
                                         <td>Rehman</td>
                                         <td>Team 1
                                         </td>
+                                        <td>abshjgds7</td>
                                         <td>09/10/16</td>
 
                                         <td><div class="btn-group">
@@ -189,6 +154,7 @@
                                     </tr>
                                     <tr>
                                         <td>2</td>
+                                        <td>bhdch</td>
                                         <td>Pratik</td>
                                         <td>Team 2
                                         </td>
@@ -199,6 +165,7 @@
                                     </tr>
                                     <tr>
                                         <td>3</td>
+                                        <td>vjbsldjls</td>
                                         <td>Trident</td>
                                         <td>Team 3
                                         </td>
@@ -210,6 +177,7 @@
                                     </tr>
                                     <tr>
                                         <td>4</td>
+                                        <td>jsnfdljkl</td>
                                         <td>Trident</td>
                                         <td>Team 3
                                         </td>
@@ -222,6 +190,7 @@
                                     </tr>
                                     <tr>
                                         <td>5</td>
+                                        <td>nbcabslf</td>
                                         <td>Trident</td>
                                         <td>Team 1
                                         </td>
@@ -231,73 +200,7 @@
                                                 <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
 
                                     </tr>
-                                    <tr>
-                                        <td>6</td>
-                                        <td>Trident</td>
-                                        <td>Team 1
-                                        </td>
-                                        <td>09/10/16</td>
 
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>7</td>
-                                        <td>Gecko</td>
-                                        <td>Team 1
-                                        </td>
-                                        <td>09/10/16</td>
-
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>8</td>
-                                        <td>Gecko</td>
-                                        <td>Team 1
-                                        </td>
-                                        <td>09/10/16</td>
-
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>9</td>
-                                        <td>Gecko</td>
-                                        <td>Team 1
-                                        </td>
-                                        <td>09/10/16</td>
-
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Gecko</td>
-                                        <td>Team 1
-                                        </td>
-                                        <td>09/10/16</td>
-
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                    </tr>
-                                    <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
-                                    <tr>
-                                        <td>10</td>
-                                        <td>Gecko</td>
-                                        <td>Team 1
-                                        </td>
-                                        <td>09/10/16</td>
-
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-history">&nbsp History</button></td>
-
-                                    </tr>
                                     </tbody>
                                 </table>
                             </div>

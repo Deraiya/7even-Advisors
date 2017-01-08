@@ -1,7 +1,7 @@
 @extends('layouts.company_master')
 
 @section('title')
-    Relaions
+    Relations
 @endsection('title')
 
 
@@ -64,41 +64,7 @@
         </nav>
     </header>
 @endsection('nav_bar')
-@section('side_bar')
-    <aside class="main-sidebar">
 
-        <!-- sidebar: style can be found in sidebar.less -->
-        <section class="sidebar">
-
-            <!-- Sidebar user panel (optional) -->
-
-
-            <!-- search form (Optional) -->
-
-            <!-- /.search form -->
-
-            <!-- Sidebar Menu -->
-            <ul class="sidebar-menu">
-                <li class="header">HEADER</li>
-                <!-- Optionally, you can add icons to the links -->
-                <li><a href="#"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </i></a></li>
-                <li class="treeview">
-                    <a href="#"><i class='fa  fa-user-plus'></i> <span>Add Users</span> <i
-                                class="fa fa-angle-left pull-right"></i></a>
-                    <ul class="treeview-menu">
-                        <li><a href="#">Add Client</a></li>
-                        <li><a href="#">Add Team</a></li>
-                    </ul>
-                </li>
-                <li class="active"><a href="#"><i class='fa fa-link'></i> <span>Relations</span></a></li>
-                <li><a href="#"><i class='fa fa-phone-square'></i> <span>Contact Developer</span></a></li>
-
-            </ul><!-- /.sidebar-menu -->
-        </section>
-        <!-- /.sidebar -->
-    </aside>
-
-@endsection('side_bar')
 
 @section('content')
     <div class="content-wrapper">

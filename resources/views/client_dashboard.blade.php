@@ -9,8 +9,8 @@
 @section('nav_bar')
     <header class="main-header">
         <nav class="navbar navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
+            <div class="container ">
+                <div class="navbar-header ">
                     <a href="#" class="navbar-brand"><b>7even</b>Advisors</a>
                 </div>
 
@@ -113,35 +113,108 @@
         <section class="content">
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="box box-danger">
+                    <div class="box box-default">
                         <div class="box-header with-border">
-                            <h3 class="box-title"><b>New Entries</b></h3>
+                            <h3 class="box-title">User Details</h3>
+
+
                         </div>
+                        <!-- /.box-header -->
                         <div class="box-body">
-                            <div><b>Details : </b></div>
                             <div class="row">
-                                <div class="col-xs-1">
-                                    <input type="text" class="form-control" placeholder="Vendor Name">
-                                </div>
-                                <div class="col-xs-1">
-                                    <input type="text" class="form-control" placeholder="Bill Number">
-                                </div>
-                                <div class="col-xs-1">
-                                    <input type="text" class="form-control" placeholder="Bill Date">
-                                </div>
-                                <div class="col-xs-1">
-                                    <input type="text" class="form-control" placeholder="Reciept">
-                                </div>
-                                <div class="col-xs-1">
-                                    <input type="text" class="form-control" placeholder="Amount">
+                                <div class="col-md-6">
+                                    <form class="form-horizontal">
+
+                                            <div class="form-group">
+                                                <label class="col-sm-2 control-label">Vendor Name</label>
+
+                                                <div class="col-sm-5">
+                                                    <div class="form-group">
+                                                            <select class="form-control select2" style="width: 100%;">
+                                                                <option selected="selected">Alabama</option>
+                                                                <option>Alaska</option>
+                                                                <option>California</option>
+                                                                <option>Delaware</option>
+                                                                <option>Tennessee</option>
+                                                                <option>Texas</option>
+                                                                <option>Washington</option>
+                                                            </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Bill Number</label>
+
+                                            <div class="col-sm-5">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="Enter ...">
+
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Bill Date</label>
+
+                                            <div class="col-sm-5">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-calendar"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control"
+                                                           data-inputmask="'alias': 'dd/mm/yyyy'" data-mask>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Recipt Date</label>
+
+                                            <div class="col-sm-5">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-calendar"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control"
+                                                           data-inputmask="'alias': 'dd/mm/yyyy'" data-mask>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Amount</label>
+
+                                            <div class="col-sm-5">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-rupee"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="exampleInputFile" class="col-sm-2 control-label">Attachment</label>
+
+                                            <div class="col-sm-5">
+                                                <input type="file" id="exampleInputFile">
+                                            </div>
+                                        </div>
+
+
+
+
+
+                                        <div class="box-footer">
+                                            <button type="submit" class="btn btn-info">Submit</button>
+                                        </div>
+
+                                    </form>
                                 </div>
 
+
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputFile">Attachments</label>
-                                <input type="file" id="exampleInputFile">
-                            </div>
-                            <button type="button" class="btn btn-info btn-flat">Go!</button>
+
                         </div>
                         <!-- /.box-body -->
                     </div>
@@ -166,6 +239,7 @@
                                     <th>Amount</th>
                                     <th>Acc. Doc No</th>
                                     <th>Remark</th>
+                                    <th>Attachment</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -178,6 +252,8 @@
                                         <td>134</td>
                                         <td>jcnkdjnck</td>
                                         <td>-</td>
+                                        <td><div class="btn-group">
+                                                <button type="button" class="btn btn-info fa fa-file">&nbsp View</button></td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
@@ -188,6 +264,8 @@
                                         <td>134</td>
                                         <td>jcnkdjnck</td>
                                         <td>-</td>
+                                        <td><div class="btn-group">
+                                                <button type="button" class="btn btn-info fa fa-file">&nbsp View</button></td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
@@ -198,6 +276,8 @@
                                         <td>134</td>
                                         <td>jcnkdjnck</td>
                                         <td>-</td>
+                                        <td><div class="btn-group">
+                                                <button type="button" class="btn btn-info fa fa-file">&nbsp View</button></td>
                                     </tr>
                                     <tr>
                                         <td>1</td>
@@ -208,6 +288,8 @@
                                         <td>134</td>
                                         <td>jcnkdjnck</td>
                                         <td>-</td>
+                                        <td><div class="btn-group">
+                                                <button type="button" class="btn btn-info fa fa-file">&nbsp View</button></td>
                                     </tr>
                                 </tbody>
                                 <tfoot>
@@ -220,6 +302,7 @@
                                     <th>Amount</th>
                                     <th>Acc. Doc No</th>
                                     <th>Remark</th>
+                                    <th>Attachment</th>
 
                                 </tr>
                                 </tfoot>

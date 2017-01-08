@@ -34,14 +34,15 @@ Route::get('/teamt', function (){
 Route::get('/rel1', function (){
     return view('admin_relation1');
 });
-Route::get('/addc', function (){
-    return view('admin_addc');
+Route::get('/addu', function (){
+    return view('admin_addu');
 });
-Route::get('/addt', function (){
-    return view('admin_addt');
-});
+
 Route::get('/his', function (){
     return view('admin_userhistory');
+});
+Route::get('/ven', function (){
+    return view('vendor_dashboard');
 });
 /* --------------------------admin------------------------------------------------------------------------------------*/
 
