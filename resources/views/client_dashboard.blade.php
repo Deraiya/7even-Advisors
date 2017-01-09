@@ -192,21 +192,42 @@
                                                 </div>
                                             </div>
                                         </div>
-
                                         <div class="form-group">
-                                            <label for="exampleInputFile" class="col-sm-2 control-label">Attachment</label>
+                                            <label class="col-sm-2 control-label">STN</label>
 
                                             <div class="col-sm-5">
-                                                <input type="file" id="exampleInputFile">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa fa-square"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">TIN/VAT</label>
+
+                                            <div class="col-sm-5">
+                                                <div class="input-group">
+                                                    <div class="input-group-addon">
+                                                        <i class="fa  fa-star"></i>
+                                                    </div>
+                                                    <input type="text" class="form-control">
+                                                </div>
                                             </div>
                                         </div>
 
 
+                                        <div class="form-group">
+                                            <label class="col-sm-2 control-label">Attachment</label>
 
-
+                                            <div class="col-sm-5">
+                                                <input id="file-3" type="file" multiple=true>
+                                            </div>
+                                        </div>
 
                                         <div class="box-footer">
-                                            <button type="submit" class="btn btn-info">Submit</button>
+                                            <button type="submit" class="btn btn-primary">Submit</button>
                                         </div>
 
                                     </form>
@@ -235,57 +256,26 @@
                                     <th>Vendor No.</th>
                                     <th>Bill No.</th>
                                     <th>Bill Date</th>
-                                    <th>Reciept</th>
+                                    <th>Reciept Date</th>
                                     <th>Amount</th>
+                                    <th>STN</th>
+                                    <th>VAT/TIN</th>
                                     <th>Acc. Doc No</th>
                                     <th>Remark</th>
                                     <th>Attachment</th>
                                 </tr>
                                 </thead>
                                 <tbody>
+
                                     <tr>
                                         <td>1</td>
                                         <td>abc</td>
                                         <td>B125</td>
                                         <td>10/10/10</td>
-                                        <td>hhajh5126w</td>
+                                        <td>11/13/10</td>
                                         <td>134</td>
-                                        <td>jcnkdjnck</td>
-                                        <td>-</td>
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-file">&nbsp View</button></td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>abc</td>
-                                        <td>B125</td>
-                                        <td>10/10/10</td>
-                                        <td>hhajh5126w</td>
-                                        <td>134</td>
-                                        <td>jcnkdjnck</td>
-                                        <td>-</td>
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-file">&nbsp View</button></td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>abc</td>
-                                        <td>B125</td>
-                                        <td>10/10/10</td>
-                                        <td>hhajh5126w</td>
-                                        <td>134</td>
-                                        <td>jcnkdjnck</td>
-                                        <td>-</td>
-                                        <td><div class="btn-group">
-                                                <button type="button" class="btn btn-info fa fa-file">&nbsp View</button></td>
-                                    </tr>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>abc</td>
-                                        <td>B125</td>
-                                        <td>10/10/10</td>
-                                        <td>hhajh5126w</td>
-                                        <td>134</td>
+                                        <td>djksna</td>
+                                        <td>jksnj</td>
                                         <td>jcnkdjnck</td>
                                         <td>-</td>
                                         <td><div class="btn-group">
@@ -298,8 +288,10 @@
                                     <th>Vendor No.</th>
                                     <th>Bill No.</th>
                                     <th>Bill Date</th>
-                                    <th>Reciept</th>
+                                    <th>Reciept Date</th>
                                     <th>Amount</th>
+                                    <th>STN</th>
+                                    <th>VAT/TIN</th>
                                     <th>Acc. Doc No</th>
                                     <th>Remark</th>
                                     <th>Attachment</th>

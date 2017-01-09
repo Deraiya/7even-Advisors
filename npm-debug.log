@@ -1,65 +1,315 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'install',
-1 verbose cli   '--global',
-1 verbose cli   'gulp-cli' ]
+1 verbose cli   'i',
+1 verbose cli   '-g',
+1 verbose cli   'bower',
+1 verbose cli   'to',
+1 verbose cli   'update' ]
 2 info using npm@2.15.8
 3 info using node@v4.4.7
 4 verbose install initial load of /usr/local/lib/package.json
 5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
-6 silly cache add args [ 'gulp-cli', null ]
-7 verbose cache add spec gulp-cli
-8 silly cache add parsed spec Result {
-8 silly cache add   raw: 'gulp-cli',
-8 silly cache add   scope: null,
-8 silly cache add   name: 'gulp-cli',
-8 silly cache add   rawSpec: '',
-8 silly cache add   spec: 'latest',
-8 silly cache add   type: 'tag' }
-9 silly addNamed gulp-cli@latest
-10 verbose addNamed "latest" is being treated as a dist-tag for gulp-cli
-11 info addNameTag [ 'gulp-cli', 'latest' ]
-12 silly mapToRegistry name gulp-cli
-13 silly mapToRegistry using default registry
-14 silly mapToRegistry registry https://registry.npmjs.org/
-15 silly mapToRegistry data Result {
-15 silly mapToRegistry   raw: 'gulp-cli',
-15 silly mapToRegistry   scope: null,
-15 silly mapToRegistry   name: 'gulp-cli',
-15 silly mapToRegistry   rawSpec: '',
-15 silly mapToRegistry   spec: 'latest',
-15 silly mapToRegistry   type: 'tag' }
-16 silly mapToRegistry uri https://registry.npmjs.org/gulp-cli
-17 verbose addNameTag registry:https://registry.npmjs.org/gulp-cli not in flight; fetching
-18 verbose request uri https://registry.npmjs.org/gulp-cli
-19 verbose request no auth needed
-20 info attempt registry request try #1 at 11:24:31 AM
-21 verbose request id 620e75e6e02aafd4
-22 http request GET https://registry.npmjs.org/gulp-cli
-23 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.192.162:443
-24 info attempt registry request try #2 at 11:25:58 AM
-25 http request GET https://registry.npmjs.org/gulp-cli
-26 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 151.101.192.162:443
-27 info attempt registry request try #3 at 11:28:13 AM
-28 http request GET https://registry.npmjs.org/gulp-cli
-29 verbose stack Error: connect ETIMEDOUT 151.101.192.162:443
-29 verbose stack     at Object.exports._errnoException (util.js:873:11)
-29 verbose stack     at exports._exceptionWithHostPort (util.js:896:20)
-29 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1077:14)
-30 verbose cwd /Applications/MAMP/htdocs/7even
-31 error Darwin 16.1.0
-32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--global" "gulp-cli"
-33 error node v4.4.7
-34 error npm  v2.15.8
-35 error code ETIMEDOUT
-36 error errno ETIMEDOUT
-37 error syscall connect
-38 error network connect ETIMEDOUT 151.101.192.162:443
-38 error network This is most likely not a problem with npm itself
-38 error network and is related to network connectivity.
-38 error network In most cases you are behind a proxy or have bad network settings.
-38 error network
-38 error network If you are behind a proxy, please make sure that the
-38 error network 'proxy' config is set properly.  See: 'npm help config'
-39 verbose exit [ 1, true ]
+6 silly cache add args [ 'bower', null ]
+7 verbose cache add spec bower
+8 silly cache add args [ 'to', null ]
+9 verbose cache add spec to
+10 silly cache add args [ 'update', null ]
+11 verbose cache add spec update
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'bower',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'bower',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: 'latest',
+12 silly cache add   type: 'tag' }
+13 silly addNamed bower@latest
+14 verbose addNamed "latest" is being treated as a dist-tag for bower
+15 info addNameTag [ 'bower', 'latest' ]
+16 silly mapToRegistry name bower
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: 'bower',
+19 silly mapToRegistry   scope: null,
+19 silly mapToRegistry   name: 'bower',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/bower
+21 verbose addNameTag registry:https://registry.npmjs.org/bower not in flight; fetching
+22 silly cache add parsed spec Result {
+22 silly cache add   raw: 'to',
+22 silly cache add   scope: null,
+22 silly cache add   name: 'to',
+22 silly cache add   rawSpec: '',
+22 silly cache add   spec: 'latest',
+22 silly cache add   type: 'tag' }
+23 silly addNamed to@latest
+24 verbose addNamed "latest" is being treated as a dist-tag for to
+25 info addNameTag [ 'to', 'latest' ]
+26 silly mapToRegistry name to
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'to',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'to',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/to
+31 verbose addNameTag registry:https://registry.npmjs.org/to not in flight; fetching
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'update',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'update',
+32 silly cache add   rawSpec: '',
+32 silly cache add   spec: 'latest',
+32 silly cache add   type: 'tag' }
+33 silly addNamed update@latest
+34 verbose addNamed "latest" is being treated as a dist-tag for update
+35 info addNameTag [ 'update', 'latest' ]
+36 silly mapToRegistry name update
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry data Result {
+39 silly mapToRegistry   raw: 'update',
+39 silly mapToRegistry   scope: null,
+39 silly mapToRegistry   name: 'update',
+39 silly mapToRegistry   rawSpec: '',
+39 silly mapToRegistry   spec: 'latest',
+39 silly mapToRegistry   type: 'tag' }
+40 silly mapToRegistry uri https://registry.npmjs.org/update
+41 verbose addNameTag registry:https://registry.npmjs.org/update not in flight; fetching
+42 verbose request uri https://registry.npmjs.org/to
+43 verbose request no auth needed
+44 info attempt registry request try #1 at 8:55:20 PM
+45 verbose request id e635c80bafd20948
+46 http request GET https://registry.npmjs.org/to
+47 verbose request uri https://registry.npmjs.org/update
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 8:55:21 PM
+50 http request GET https://registry.npmjs.org/update
+51 verbose request uri https://registry.npmjs.org/bower
+52 verbose request no auth needed
+53 info attempt registry request try #1 at 8:55:21 PM
+54 verbose etag "EB4DYQT3CUXFGY71JST3M0PJ4"
+55 http request GET https://registry.npmjs.org/bower
+56 http 200 https://registry.npmjs.org/to
+57 verbose headers { server: 'nginx/1.10.1',
+57 verbose headers   'content-type': 'application/json',
+57 verbose headers   'last-modified': 'Wed, 12 Dec 2012 02:47:19 GMT',
+57 verbose headers   etag: 'W/"50c7f037-91a2"',
+57 verbose headers   'content-encoding': 'gzip',
+57 verbose headers   'cache-control': 'max-age=300',
+57 verbose headers   'content-length': '3493',
+57 verbose headers   'accept-ranges': 'bytes',
+57 verbose headers   date: 'Sun, 08 Jan 2017 15:25:22 GMT',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   age: '0',
+57 verbose headers   connection: 'keep-alive',
+57 verbose headers   'x-served-by': 'cache-ams4133-AMS',
+57 verbose headers   'x-cache': 'HIT',
+57 verbose headers   'x-cache-hits': '1',
+57 verbose headers   'x-timer': 'S1483889122.664681,VS0,VE7',
+57 verbose headers   vary: 'Accept-Encoding' }
+58 silly get cb [ 200,
+58 silly get   { server: 'nginx/1.10.1',
+58 silly get     'content-type': 'application/json',
+58 silly get     'last-modified': 'Wed, 12 Dec 2012 02:47:19 GMT',
+58 silly get     etag: 'W/"50c7f037-91a2"',
+58 silly get     'content-encoding': 'gzip',
+58 silly get     'cache-control': 'max-age=300',
+58 silly get     'content-length': '3493',
+58 silly get     'accept-ranges': 'bytes',
+58 silly get     date: 'Sun, 08 Jan 2017 15:25:22 GMT',
+58 silly get     via: '1.1 varnish',
+58 silly get     age: '0',
+58 silly get     connection: 'keep-alive',
+58 silly get     'x-served-by': 'cache-ams4133-AMS',
+58 silly get     'x-cache': 'HIT',
+58 silly get     'x-cache-hits': '1',
+58 silly get     'x-timer': 'S1483889122.664681,VS0,VE7',
+58 silly get     vary: 'Accept-Encoding' } ]
+59 verbose get saving to to /Users/My Mac/.npm/registry.npmjs.org/to/.cache.json
+60 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+61 silly addNameTag next cb for to with tag latest
+62 silly addNamed to@0.2.9
+63 verbose addNamed "0.2.9" is a plain semver version for to
+64 silly mapToRegistry name to
+65 silly mapToRegistry using default registry
+66 silly mapToRegistry registry https://registry.npmjs.org/
+67 silly mapToRegistry data Result {
+67 silly mapToRegistry   raw: 'to',
+67 silly mapToRegistry   scope: null,
+67 silly mapToRegistry   name: 'to',
+67 silly mapToRegistry   rawSpec: '',
+67 silly mapToRegistry   spec: 'latest',
+67 silly mapToRegistry   type: 'tag' }
+68 silly mapToRegistry uri https://registry.npmjs.org/to
+69 verbose addRemoteTarball https://registry.npmjs.org/to/-/to-0.2.9.tgz not in flight; adding
+70 verbose addRemoteTarball [ 'https://registry.npmjs.org/to/-/to-0.2.9.tgz',
+70 verbose addRemoteTarball   '0ba5a56fe53538db9205ceb6d7ed217aae4635c4' ]
+71 info retry fetch attempt 1 at 8:55:22 PM
+72 info attempt registry request try #1 at 8:55:22 PM
+73 http fetch GET https://registry.npmjs.org/to/-/to-0.2.9.tgz
+74 http 200 https://registry.npmjs.org/update
+75 verbose headers { server: 'nginx/1.10.1',
+75 verbose headers   'content-type': 'application/json',
+75 verbose headers   'last-modified': 'Thu, 01 Sep 2016 04:45:46 GMT',
+75 verbose headers   etag: 'W/"57c7b27a-14d17"',
+75 verbose headers   'content-encoding': 'gzip',
+75 verbose headers   'cache-control': 'max-age=300',
+75 verbose headers   'content-length': '13158',
+75 verbose headers   'accept-ranges': 'bytes',
+75 verbose headers   date: 'Sun, 08 Jan 2017 15:25:22 GMT',
+75 verbose headers   via: '1.1 varnish',
+75 verbose headers   age: '0',
+75 verbose headers   connection: 'keep-alive',
+75 verbose headers   'x-served-by': 'cache-ams4431-AMS',
+75 verbose headers   'x-cache': 'HIT',
+75 verbose headers   'x-cache-hits': '1',
+75 verbose headers   'x-timer': 'S1483889122.665208,VS0,VE7',
+75 verbose headers   vary: 'Accept-Encoding' }
+76 silly get cb [ 200,
+76 silly get   { server: 'nginx/1.10.1',
+76 silly get     'content-type': 'application/json',
+76 silly get     'last-modified': 'Thu, 01 Sep 2016 04:45:46 GMT',
+76 silly get     etag: 'W/"57c7b27a-14d17"',
+76 silly get     'content-encoding': 'gzip',
+76 silly get     'cache-control': 'max-age=300',
+76 silly get     'content-length': '13158',
+76 silly get     'accept-ranges': 'bytes',
+76 silly get     date: 'Sun, 08 Jan 2017 15:25:22 GMT',
+76 silly get     via: '1.1 varnish',
+76 silly get     age: '0',
+76 silly get     connection: 'keep-alive',
+76 silly get     'x-served-by': 'cache-ams4431-AMS',
+76 silly get     'x-cache': 'HIT',
+76 silly get     'x-cache-hits': '1',
+76 silly get     'x-timer': 'S1483889122.665208,VS0,VE7',
+76 silly get     vary: 'Accept-Encoding' } ]
+77 verbose get saving update to /Users/My Mac/.npm/registry.npmjs.org/update/.cache.json
+78 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+79 silly addNameTag next cb for update with tag latest
+80 silly addNamed update@0.7.4
+81 verbose addNamed "0.7.4" is a plain semver version for update
+82 silly mapToRegistry name update
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry data Result {
+85 silly mapToRegistry   raw: 'update',
+85 silly mapToRegistry   scope: null,
+85 silly mapToRegistry   name: 'update',
+85 silly mapToRegistry   rawSpec: '',
+85 silly mapToRegistry   spec: 'latest',
+85 silly mapToRegistry   type: 'tag' }
+86 silly mapToRegistry uri https://registry.npmjs.org/update
+87 verbose addRemoteTarball https://registry.npmjs.org/update/-/update-0.7.4.tgz not in flight; adding
+88 verbose addRemoteTarball [ 'https://registry.npmjs.org/update/-/update-0.7.4.tgz',
+88 verbose addRemoteTarball   'b1a091c11a3e28ae31ba2eef58b711b82ce98b14' ]
+89 info retry fetch attempt 1 at 8:55:22 PM
+90 info attempt registry request try #1 at 8:55:22 PM
+91 http fetch GET https://registry.npmjs.org/update/-/update-0.7.4.tgz
+92 http fetch 200 https://registry.npmjs.org/to/-/to-0.2.9.tgz
+93 silly fetchAndShaCheck shasum 0ba5a56fe53538db9205ceb6d7ed217aae4635c4
+94 verbose addTmpTarball /var/folders/3b/88r1rcp54pvcbzxn4264_h640000gn/T/npm-9790-ea0f9565/registry.npmjs.org/to/-/to-0.2.9.tgz not in flight; adding
+95 verbose addTmpTarball already have metadata; skipping unpack for to@0.2.9
+96 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+97 silly cache afterAdd to@0.2.9
+98 verbose afterAdd /Users/My Mac/.npm/to/0.2.9/package/package.json not in flight; writing
+99 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+100 verbose afterAdd /Users/My Mac/.npm/to/0.2.9/package/package.json written
+101 http 200 https://registry.npmjs.org/bower
+102 verbose headers { server: 'nginx/1.10.1',
+102 verbose headers   'content-type': 'application/json',
+102 verbose headers   'last-modified': 'Sun, 08 Jan 2017 04:41:09 GMT',
+102 verbose headers   etag: 'W/"5871c2e5-2acd7"',
+102 verbose headers   'content-encoding': 'gzip',
+102 verbose headers   'cache-control': 'max-age=300',
+102 verbose headers   'content-length': '16380',
+102 verbose headers   'accept-ranges': 'bytes',
+102 verbose headers   date: 'Sun, 08 Jan 2017 15:25:22 GMT',
+102 verbose headers   via: '1.1 varnish',
+102 verbose headers   age: '4',
+102 verbose headers   connection: 'keep-alive',
+102 verbose headers   'x-served-by': 'cache-ams4130-AMS',
+102 verbose headers   'x-cache': 'HIT',
+102 verbose headers   'x-cache-hits': '1',
+102 verbose headers   'x-timer': 'S1483889122.666344,VS0,VE0',
+102 verbose headers   vary: 'Accept-Encoding' }
+103 silly get cb [ 200,
+103 silly get   { server: 'nginx/1.10.1',
+103 silly get     'content-type': 'application/json',
+103 silly get     'last-modified': 'Sun, 08 Jan 2017 04:41:09 GMT',
+103 silly get     etag: 'W/"5871c2e5-2acd7"',
+103 silly get     'content-encoding': 'gzip',
+103 silly get     'cache-control': 'max-age=300',
+103 silly get     'content-length': '16380',
+103 silly get     'accept-ranges': 'bytes',
+103 silly get     date: 'Sun, 08 Jan 2017 15:25:22 GMT',
+103 silly get     via: '1.1 varnish',
+103 silly get     age: '4',
+103 silly get     connection: 'keep-alive',
+103 silly get     'x-served-by': 'cache-ams4130-AMS',
+103 silly get     'x-cache': 'HIT',
+103 silly get     'x-cache-hits': '1',
+103 silly get     'x-timer': 'S1483889122.666344,VS0,VE0',
+103 silly get     vary: 'Accept-Encoding' } ]
+104 verbose get saving bower to /Users/My Mac/.npm/registry.npmjs.org/bower/.cache.json
+105 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+106 http fetch 200 https://registry.npmjs.org/update/-/update-0.7.4.tgz
+107 silly addNameTag next cb for bower with tag latest
+108 silly addNamed bower@1.8.0
+109 verbose addNamed "1.8.0" is a plain semver version for bower
+110 silly mapToRegistry name bower
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'bower',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   name: 'bower',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/bower
+115 verbose addRemoteTarball https://registry.npmjs.org/bower/-/bower-1.8.0.tgz not in flight; adding
+116 verbose addRemoteTarball [ 'https://registry.npmjs.org/bower/-/bower-1.8.0.tgz',
+116 verbose addRemoteTarball   '55dbebef0ad9155382d9e9d3e497c1372345b44a' ]
+117 info retry fetch attempt 1 at 8:55:23 PM
+118 info attempt registry request try #1 at 8:55:23 PM
+119 http fetch GET https://registry.npmjs.org/bower/-/bower-1.8.0.tgz
+120 silly fetchAndShaCheck shasum b1a091c11a3e28ae31ba2eef58b711b82ce98b14
+121 verbose addTmpTarball /var/folders/3b/88r1rcp54pvcbzxn4264_h640000gn/T/npm-9790-ea0f9565/registry.npmjs.org/update/-/update-0.7.4.tgz not in flight; adding
+122 verbose addTmpTarball already have metadata; skipping unpack for update@0.7.4
+123 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+124 silly cache afterAdd update@0.7.4
+125 verbose afterAdd /Users/My Mac/.npm/update/0.7.4/package/package.json not in flight; writing
+126 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+127 verbose afterAdd /Users/My Mac/.npm/update/0.7.4/package/package.json written
+128 http fetch 200 https://registry.npmjs.org/bower/-/bower-1.8.0.tgz
+129 silly fetchAndShaCheck shasum 55dbebef0ad9155382d9e9d3e497c1372345b44a
+130 verbose addTmpTarball /var/folders/3b/88r1rcp54pvcbzxn4264_h640000gn/T/npm-9790-ea0f9565/registry.npmjs.org/bower/-/bower-1.8.0.tgz not in flight; adding
+131 verbose addTmpTarball already have metadata; skipping unpack for bower@1.8.0
+132 verbose correctMkdir /Users/My Mac/.npm correctMkdir not in flight; initializing
+133 verbose stack Error: EACCES: permission denied, mkdir '/Users/My Mac/.npm/bower/1.8.0'
+133 verbose stack     at Error (native)
+134 verbose cwd /Applications/MAMP/htdocs/7even
+135 error Darwin 16.1.0
+136 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "bower" "to" "update"
+137 error node v4.4.7
+138 error npm  v2.15.8
+139 error path /Users/My Mac/.npm/bower/1.8.0
+140 error code EACCES
+141 error errno -13
+142 error syscall mkdir
+143 error Error: EACCES: permission denied, mkdir '/Users/My Mac/.npm/bower/1.8.0'
+143 error     at Error (native)
+143 error  { [Error: EACCES: permission denied, mkdir '/Users/My Mac/.npm/bower/1.8.0']
+143 error   errno: -13,
+143 error   code: 'EACCES',
+143 error   syscall: 'mkdir',
+143 error   path: '/Users/My Mac/.npm/bower/1.8.0' }
+144 error Please try running this command again as root/Administrator.
+145 verbose exit [ -13, true ]

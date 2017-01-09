@@ -55,7 +55,9 @@
     </footer>
 
 </div>
+@include('includes.fileinput_js')
 @include('includes.js')
+
 </body>
 </html>
 

@@ -167,7 +167,7 @@
                                     <div class="col-sm-5">
                                         <div class="input-group">
 
-                                            <input type="text" class="form-control">
+                                            <input type="text" class="form-control" >
                                         </div>
                                     </div>
                                 </div>
@@ -175,7 +175,7 @@
                                     <label class="col-sm-2 control-label">Define Role</label>
 
                                     <div class="col-sm-2">
-                                        <select class="form-control">
+                                        <select class="form-control" >
                                             <option>Client</option>
                                             <option>Team</option>
                                             <option>Admin</option>

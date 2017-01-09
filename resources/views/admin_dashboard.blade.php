@@ -71,66 +71,80 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1><b>
-                News Feed
+                    News Feed
                 </b>
             </h1>
 
         </section>
 
         <!-- Main content -->
+
         <section class="content">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="col-lg-3 col-xs-6">
-                        <!-- small box -->
-                        <div class="small-box bg-yellow">
-                            <div class="inner">
-                                <h3>44</h3>
 
-                                <p>Number Of Users</p>
-                            </div>
-                            <div class="icon">
-                                <i class="ion ion-person-add"></i>
-                            </div>
-                            <a href="{{ URL::to('clientt')}}" class="small-box-footer">
-                                More info <i class="fa fa-arrow-circle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-xs-6">
-                        <!-- small box -->
-                        <div class="small-box bg-green">
-                            <div class="inner">
-                                <h3>44</h3>
+            <div class="box box-default">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Profile</h3>
 
-                                <p>Number Of Team</p>
-                            </div>
-                            <div class="icon">
-                                <i class="ion ion-person-add"></i>
-                            </div>
-                            <a href="{{ URL::to('teamt')}}" class="small-box-footer">
-                                More info <i class="fa fa-arrow-circle-right"></i>
-                            </a>
-                        </div>
-                    </div>
                 </div>
-                <!-- /.col -->
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="col-lg-3 col-xs-6">
+                                <!-- small box -->
+                                <div class="small-box bg-yellow">
+                                    <div class="inner">
+                                        <h3>44</h3>
+
+                                        <p>Number Of Client</p>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="ion ion-person-add"></i>
+                                    </div>
+                                    <a href="{{ URL::to('clientt')}}" class="small-box-footer">
+                                        More info <i class="fa fa-arrow-circle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xs-6">
+                                <!-- small box -->
+                                <div class="small-box bg-green">
+                                    <div class="inner">
+                                        <h3>44</h3>
+
+                                        <p>Number Of Team</p>
+                                    </div>
+                                    <div class="icon">
+                                        <i class="ion ion-person-add"></i>
+                                    </div>
+                                    <a href="{{ URL::to('teamt')}}" class="small-box-footer">
+                                        More info <i class="fa fa-arrow-circle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- /.col -->
+                    </div>
+
+                </div>
             </div>
             <div class="row">
+
                 <div class="col-xs-12">
                     <div class="box box-info">
                         <div class="box-header with-border">
-                            <h3 class="box-title">Latest Update</h3>
+                            <h3 class="box-title">All Clients Recent Update</h3>
 
 
                         </div>
                         <!-- /.box-header -->
                         <div class="box-body">
                             <div class="table-responsive">
-                                <table id="example1" class="table table-bordered table-striped ">
+                                <table id="example2" class="table table-bordered table-striped ">
                                     <thead>
                                     <tr>
-                                        <th>ID/Serial</th>
+                                        <th>Serial Number</th>
                                         <th>Client</th>
                                         <th>Team Assigned</th>
                                         <th>Acc. Doc Number</th>

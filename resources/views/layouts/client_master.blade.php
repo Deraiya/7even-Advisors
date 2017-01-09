@@ -108,6 +108,7 @@
          immediately after the control sidebar -->
     <div class="control-sidebar-bg"></div>
 </div>
+@include('includes.fileinput_js')
 @include('includes.js')
 
 </body>

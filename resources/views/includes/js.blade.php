@@ -24,8 +24,8 @@
     $(function () {
         $("#example1").DataTable();
         $('#example2').DataTable({
-            "paging": true,
-            "lengthChange": true,
+            "paging": false,
+            "lengthChange": false,
             "searching": true,
             "ordering": true,
             "info": false,
@@ -98,12 +98,14 @@
 
             $('#inputPassword3').attr('type','text');
 
-        })
+        });
 
         $('#showme').on('mouseleave',function(){
 
             $('#inputPassword3').attr('type','password');
 
-        })
+        });
+
     });
+
 </script>

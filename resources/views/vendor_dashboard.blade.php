@@ -71,7 +71,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Vendor Details
+                Vendors' Details
                 <small></small>
             </h1>
 
@@ -81,32 +81,21 @@
         <section class="content">
             <div class="row">
 
-                <div class="form-group">
-                    <input type="file" name="img[]" class="file">
-                    <div class="input-group col-xs-12">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
-                        <input type="text" class="form-control input-lg" disabled placeholder="Upload Image">
-                        <span class="input-group-btn">
-        <button class="browse btn btn-primary input-lg" type="button"><i class="glyphicon glyphicon-search"></i> Browse</button>
-      </span>
+                <div class="col-xs-12">
+                    <div class="box">
+                        <div class="box-body">
+                            <form>
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <input id="file-1" type="file" multiple class="file" data-overwrite-initial="false" data-min-file-count="1">
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
                     </div>
                 </div>
-
-
-                <!--
-                <div class>
-                    <div class="fileinput fileinput-new" data-provides="fileinput">
-                        <span class="btn btn-default btn-file bg-navy margin"><span>Choose file</span><input type="file" /></span>
-                       <span class="fileinput-filename"></span><span class="fileinput-new">No file chosen</span>
-                    </div>
-                </div>
-
-                <button type="button" class="btn bg-navy margin">.btn.bg-navy</button>
-                   <button type="button" class="btn btn-block btn-info btn-lg">Info</button>
-
-                 <input type="file" id="exampleInputFile">
-
-                -->
 
 
                 <div class="col-xs-12">
@@ -116,139 +105,46 @@
                             <table id="example1" class="table table-bordered table-striped">
                                 <thead>
                                 <tr>
-                                    <th>ID</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Email ID</th>
-                                    <th>Address</th>
-                                    <th>Phone No.</th>
-                                    <th>PAN No.</th>
+                                    <th>Serial Number</th>
+                                    <th>Address 1</th>
+                                    <th>Address 2 (city)</th>
+                                    <th>Address 3 (state)</th>
+                                    <th>PIN</th>
+                                    <th>PAN</th>
+                                    <th>Service TAX</th>
+                                    <th>VAT/TIN</th>
+                                    <th>Email</th>
 
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
-                                <tr>
-                                    <td>1</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
+                                @for ($i = 0; $i < 10; $i++)
+                                    <tr>
+                                        <td>1</td>
+                                        <td>abc</td>
+                                        <td>B125</td>
+                                        <td>bhbha</td>
+                                        <td>41671td>
+                                        <td>566712738</td>
+                                        <td>134</td>
+                                        <td> 999282b</td>
+                                        <td>abdg@gmail.com</td>
 
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-
-
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-
-                                </tr>
-                                <tr>
-                                    <td>8</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-
-                                </tr>
-                                <tr>
-                                    <td>9</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-
-                                </tr>
-                                <tr>
-                                    <td>10</td>
-                                    <td>Rehman</td>
-                                    <td>Deraiya</td>
-                                    <td>abusderaiya@gmail.com</td>
-                                    <td>mumbai</td>
-                                    <td>1246292</td>
-                                    <td>13462892</td>
-
-                                </tr>
-                                <!-- ------------------------------------------ 10 Trail Entries  ---------------------------------------------------------- -->
-                                <tr>
-                                    <td>10</td>
-                                    <td>bcbw</td>
-                                    <td>jnjnq</td>
-                                    <td>cnmbkjbjw</td>
-                                    <td>ncjwbw</td>
-                                    <td>cbqcj</td>
-                                    <td>13462892</td>
-
-                                </tr>
+                                    </tr>
+                                @endfor
                                 </tbody>
 
                                 <tfoot>
                                 <tr>
-                                    <th>ID</th>
-                                    <th>First Name</th>
-                                    <th>Last Name</th>
-                                    <th>Email ID</th>
-                                    <th>Address</th>
-                                    <th>Phone No.</th>
-                                    <th>PAN No.</th>
+                                    <th>Serial Number</th>
+                                    <th>Address 1</th>
+                                    <th>Address 2 (city)</th>
+                                    <th>Address 3 (state)</th>
+                                    <th>PIN</th>
+                                    <th>PAN</th>
+                                    <th>Service TAX</th>
+                                    <th>VAT/TIN</th>
+                                    <th>Email</th>
                                 </tr>
                                 </tfoot>
 
@@ -266,4 +162,5 @@
         </section>
         <!-- /.content -->
     </div>
+
 @endsection('content')

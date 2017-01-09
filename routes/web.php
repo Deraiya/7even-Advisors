@@ -50,6 +50,9 @@ Route::get('/ven', function (){
 Route::get('/team', function (){
     return view('team_dashboard');
 });
+Route::get('/teamuhis', function (){
+    return view('team_uhistory');
+});
 
 
 /* --------------------------Team------------------------------------------------------------------------------------*/

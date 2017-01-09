@@ -91,122 +91,42 @@
                                     <th>Bill No.</th>
                                     <th>Bill Date</th>
                                     <th>Reciept</th>
+                                    <th>TIN Number</th>
+                                    <th>STN</th>
                                     <th>Amount</th>
                                     <th>Acc. Doc No</th>
                                     <th>Remark</th>
                                     <th>Attachment</th>
-                                    <th>Submit</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>abc</td>
-                                    <td>B125</td>
-                                    <td>10/10/10</td>
-                                    <td>hhajh5126w</td>
-                                    <td>134</td>
-                                    <td>jdnjnwj</td>
-                                    <td>jvnorjeo</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-info btn-flat">Action</button>
-                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle"
-                                                    data-toggle="dropdown" aria-expanded="false">
-                                                <span class="caret"></span>
-                                                <span class="sr-only">Toggle Dropdown</span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#">Save Attachments</a></li>
-                                                <li><a href="#">Edit Details</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger">Submit</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>abc</td>
-                                    <td>B125</td>
-                                    <td>10/10/10</td>
-                                    <td>hhajh5126w</td>
-                                    <td>134</td>
-                                    <td>wnodvnow</td>
-                                    <td>svnwdhv</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-info btn-flat">Action</button>
-                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle"
-                                                    data-toggle="dropdown" aria-expanded="false">
-                                                <span class="caret"></span>
-                                                <span class="sr-only">Toggle Dropdown</span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#">Save Attachments</a></li>
-                                                <li><a href="#">Edit Details</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger">Submit</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>abc</td>
-                                    <td>B125</td>
-                                    <td>10/10/10</td>
-                                    <td>hhajh5126w</td>
-                                    <td>134</td>
-                                    <td>jvsndisfidu</td>
-                                    <td> hdobln</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-info btn-flat">Action</button>
-                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle"
-                                                    data-toggle="dropdown" aria-expanded="false">
-                                                <span class="caret"></span>
-                                                <span class="sr-only">Toggle Dropdown</span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#">Save Attachments</a></li>
-                                                <li><a href="#">Edit Details</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger">Submit</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>abc</td>
-                                    <td>B125</td>
-                                    <td>10/10/10</td>
-                                    <td>hhajh5126w</td>
-                                    <td>134</td>
-                                    <td> njhbjhb</td>
-                                    <td>cvjh</td>
-                                    <td>
-                                        <div class="btn-group">
-                                            <button type="button" class="btn btn-info btn-flat">Action</button>
-                                            <button type="button" class="btn btn-info btn-flat dropdown-toggle"
-                                                    data-toggle="dropdown" aria-expanded="false">
-                                                <span class="caret"></span>
-                                                <span class="sr-only">Toggle Dropdown</span>
-                                            </button>
-                                            <ul class="dropdown-menu" role="menu">
-                                                <li><a href="#">Save Attachments</a></li>
-                                                <li><a href="#">Edit Details</a></li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <button type="button" class="btn btn-danger">Submit</button>
-                                    </td>
-                                </tr>
+                                @for ($i = 0; $i < 10; $i++)
+                                    <tr>
+                                        <td>1</td>
+                                        <td>abc</td>
+                                        <td>B125</td>
+                                        <td>10/10/10</td>
+                                        <td>hhajh5126w</td>
+                                        <td>hcsbhsa</td>
+                                        <td>nkuhi</td>
+                                        <td>134</td>
+                                        <td> njhbjhb</td>
+                                        <td>cvjh</td>
+                                        <td>
+                                            <button type="button" class="btn btn-info">&nbsp View &nbsp</button>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-default">&nbsp Edit &nbsp</button>
+                                        </td>
+                                        <td>
+                                            <button type="button" class="btn btn-danger">&nbsp Delete &nbsp</button>
+                                        </td>
+                                    </tr>
+                                @endfor
+
                                 </tbody>
                                 <tfoot>
                                 <tr>
@@ -215,11 +135,15 @@
                                     <th>Bill No.</th>
                                     <th>Bill Date</th>
                                     <th>Reciept</th>
+                                    <th>TIN Number</th>
+                                    <th>STN</th>
                                     <th>Amount</th>
                                     <th>Acc. Doc No</th>
                                     <th>Remark</th>
                                     <th>Attachment</th>
-                                    <th>Submit</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+
 
                                 </tr>
                                 </tfoot>
