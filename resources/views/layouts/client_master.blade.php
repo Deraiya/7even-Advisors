@@ -11,36 +11,59 @@
 <body class="hold-transition skin-blue layout-top-nav">
 <div class="wrapper">
 
+    <header class="main-header">
+        <nav class="navbar navbar-static-top">
 
-@yield('nav_bar')
+            <a href="index2.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>7even</b>Advisors</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>7even</b>Advisors</span>
+            </a>
+            <div class="container pull-right">
+
+
+                <div class="col"></div>
+
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+
+
+
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                                <span class="hidden-xs">Sign Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 
 
 
 @yield('content')
 
 
-<!-- Main Footer -->
+
     <footer class="main-footer">
-        <!-- To the right -->
         <div class="pull-right hidden-xs">
             Crafted At Deraiya Inc.
         </div>
-        <!-- Default to the left -->
         <strong>Copyright &copy; 2017 <a href="#">7even Advisors</a>.</strong>
     </footer>
 
 
-
-    <!-- Control Sidebar -->
     <aside class="control-sidebar control-sidebar-dark">
         <!-- Create the tabs -->
         <ul class="nav nav-tabs nav-justified control-sidebar-tabs">
             <li class="active"><a href="#control-sidebar-home-tab" data-toggle="tab"><i class="fa fa-home"></i></a></li>
             <li><a href="#control-sidebar-settings-tab" data-toggle="tab"><i class="fa fa-gears"></i></a></li>
         </ul>
-        <!-- Tab panes -->
         <div class="tab-content">
-            <!-- Home tab content -->
             <div class="tab-pane active" id="control-sidebar-home-tab">
                 <h3 class="control-sidebar-heading">Recent Activity</h3>
                 <ul class="control-sidebar-menu">
@@ -56,8 +79,6 @@
                         </a>
                     </li>
                 </ul>
-                <!-- /.control-sidebar-menu -->
-
                 <h3 class="control-sidebar-heading">Tasks Progress</h3>
                 <ul class="control-sidebar-menu">
                     <li>
@@ -75,14 +96,8 @@
                         </a>
                     </li>
                 </ul>
-                <!-- /.control-sidebar-menu -->
-
             </div>
-            <!-- /.tab-pane -->
-            <!-- Stats tab content -->
             <div class="tab-pane" id="control-sidebar-stats-tab">Stats Tab Content</div>
-            <!-- /.tab-pane -->
-            <!-- Settings tab content -->
             <div class="tab-pane" id="control-sidebar-settings-tab">
                 <form method="post">
                     <h3 class="control-sidebar-heading">General Settings</h3>
@@ -97,15 +112,10 @@
                             Some information about this general settings option
                         </p>
                     </div>
-                    <!-- /.form-group -->
                 </form>
             </div>
-            <!-- /.tab-pane -->
         </div>
     </aside>
-    <!-- /.control-sidebar -->
-    <!-- Add the sidebar's background. This div must be placed
-         immediately after the control sidebar -->
     <div class="control-sidebar-bg"></div>
 </div>
 @include('includes.fileinput_js')

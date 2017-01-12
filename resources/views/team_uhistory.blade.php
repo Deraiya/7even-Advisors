@@ -5,65 +5,6 @@
 @endsection('title')
 
 
-@section('nav_bar')
-    <header class="main-header">
-        <nav class="navbar navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="../../index2.html" class="navbar-brand"><b>7even</b>Advisors</a>
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                </div>
-
-
-
-                <!-- /.navbar-collapse -->
-                <!-- Navbar Right Menu -->
-                <div class="navbar-custom-menu">
-                    <ul class="nav navbar-nav">
-
-
-
-                        <li class="dropdown user user-menu">
-                            <!-- Menu Toggle Button -->
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <!-- The user image in the navbar-->
-                                <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                                <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                                <span class="hidden-xs">Pratik Harsh</span>
-                            </a>
-                            <ul class="dropdown-menu">
-                                <!-- The user image in the menu -->
-                                <li class="user-header">
-                                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
-
-                                    <p>
-                                        Pratik Harsh
-                                    </p>
-                                </li>
-
-
-                                <li class="user-footer">
-                                    <div class="pull-left">
-                                        <a href="#" class="btn btn-default btn-flat">Contact</a>
-                                    </div>
-                                    <div class="pull-right">
-                                        <a href="#" class="btn btn-default btn-flat">Sign out</a>
-                                    </div>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <!-- /.navbar-custom-menu -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-    </header>
-    </header>
-@endsection('nav_bar')
-
 @section('content')
     <div class="content-wrapper">
         <section class="content-header">

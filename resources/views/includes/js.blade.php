@@ -20,6 +20,8 @@
 <script src="plugins/timepicker/bootstrap-timepicker.min.js"></script>
 <script src="plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
 
+
+
 <script>
     $(function () {
         $("#example1").DataTable();

@@ -13,7 +13,37 @@
 <div class="wrapper">
 
 
-@yield('nav_bar')
+    <header class="main-header">
+        <nav class="navbar navbar-static-top">
+
+            <a href="index2.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>7even</b>Advisors</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg"><b>7even</b>Advisors</span>
+            </a>
+            <div class="container pull-right">
+
+
+                <div class="col"></div>
+
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+
+
+
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+
+                                <span class="hidden-xs">Sign Out</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 
 
 
